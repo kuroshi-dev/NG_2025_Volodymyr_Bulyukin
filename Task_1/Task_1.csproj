@@ -8,14 +8,20 @@
 
     <ItemGroup>
       <PackageReference Include="AutoMapper" Version="14.0.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.3.0" />
       <PackageReference Include="Swashbuckle.AspNetCore" Version="7.3.1" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="7.3.1" />
       <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="7.3.1" />
       <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="7.3.1" />
       <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="7.3.1" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Views\Login\" />
+      <Folder Include="Views\Account\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Properties\launchSettings.json" />
     </ItemGroup>
 
 </Project>
